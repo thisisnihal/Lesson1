@@ -1,20 +1,26 @@
-package com.example.lesson1;
+### CS50 Android Track Lesson 1
 
-import androidx.appcompat.app.AppCompatActivity;
+* [x] Step 1 Add `Track.java` file    
+```
+// it's just a data class
+public class Track {
+    private String name;
+    private String instructor;
 
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-
+    Track(String name, String instructor) {
+        this.name = name;
+        this.instructor = instructor;
+    }
+    public String getName() {
+        return name;
+    }
+    public String getInstructor() {
+        return instructor;
+    }
+}
+```
+* [x] Step 2 Update `MainActivity.java` file   
+```
 public class MainActivity extends AppCompatActivity {
 
     TextView tv1;
@@ -62,3 +68,28 @@ public class MainActivity extends AppCompatActivity {
         strfortv = "";
     }
 }
+```  
+* [x] Step 3 Update `activity_main.xml` file  
+```
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Change Button"
+        android:id="@+id/tv1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change"
+        android:textSize="30sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv1"
+        app:layout_constraintStart_toStartOf="@+id/tv1"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+```
