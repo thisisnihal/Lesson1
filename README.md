@@ -1,7 +1,7 @@
 ### CS50 Android Track Lesson 1
 
 * [x] Step 1 Add `Track.java` file    
-```
+```java
 // it's just a data class
 public class Track {
     private String name;
@@ -20,7 +20,7 @@ public class Track {
 }
 ```
 * [x] Step 2 Update `MainActivity.java` file   
-```
+```java
 public class MainActivity extends AppCompatActivity {
 
     TextView tv1;
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```  
 * [x] Step 3 Update `activity_main.xml` file  
-```
+```xml
 <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
