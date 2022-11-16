@@ -92,4 +92,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="@+id/tv1"
         app:layout_constraintStart_toStartOf="@+id/tv1"
         app:layout_constraintTop_toBottomOf="@+id/tv1" />
-```
+```  
+
+
+***Note: I am still Learning so what I explained above take it as a pinch of salt. There is NO GAURANTEE & WARRANTY of the information given above : )***
