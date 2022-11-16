@@ -95,4 +95,5 @@ public class MainActivity extends AppCompatActivity {
 ```  
 
 
-***Note: I am still Learning so what I explained above take it as a pinch of salt. There is NO GAURANTEE & WARRANTY of the information given above : )***
+***Note: I am still Learning so what I explained above take it as a pinch of salt. There is NO GAURANTEE & WARRANTY of the information given above  
+And PLEASE CORRECT ME IF I MADE ANY MISTAKE. ALL YOUR FEEDBACK WILL BE APPRECIATED: )***
